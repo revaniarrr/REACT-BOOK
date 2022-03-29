@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import Student from './pages/student';
 import Book from './pages/Book';
+import Nilai from './pages/Nilai';
+import Penjualan from './pages/Penjualan';
 
 import reportWebVitals from './reportWebVitals';
 // load library bootstrap for styling
@@ -12,7 +14,7 @@ import "bootstrap/dist/js/bootstrap.bundle"
 import "@fortawesome/fontawesome-free/js/all"
 
 ReactDOM.render(
-    <Book/>,
+    <App/>,
   document.getElementById('root')
 );
 
